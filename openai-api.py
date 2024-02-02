@@ -7,7 +7,7 @@ cors = CORS(app)
 
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'YOUR_KEY_HERE'
 
 @app.route('/',methods=['GET'])
 def hello():
